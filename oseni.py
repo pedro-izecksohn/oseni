@@ -6,14 +6,14 @@ l1=[]
 l2=[]
 lt=[]
 while len(l1)<16:
-    n=random.randint(0,256)
+    n=random.randint(0,255)
     if n in lt:
         continue
     lt.append(n)
     l1.append(n)
 #print(l1)
 while len(l2)<16:
-    n=random.randint(0,256)
+    n=random.randint(0,255)
     if n in lt:
         continue
     lt.append(n)
